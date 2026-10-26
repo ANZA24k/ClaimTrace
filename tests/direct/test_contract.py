@@ -184,3 +184,22 @@ def test_audit_malformed_result_rejected(setup):
     candidate['assessment']['sources'][0]['status']='CONTEXT'
     vm.mock_llm('^Independent evidence audit', '{"valid":"true"}')
     assert not vm.run_validator(leader_result=candidate)
+
+
+def test_one_bounded_schema_repair_preserves_grounding(setup):
+    c,vm=setup
+    vm.mock_llm('^Schema repair',json.dumps(assessment()))
+    invalid=assessment();invalid['requirements']=[]
+    prepare(c,vm,invalid)
+    c.evaluate('1')
+    assert json.loads(c.get_claim('1'))['revisions'][0]['result']['verdict']=='VERIFIED'
+
+
+def test_repair_cannot_introduce_ungrounded_findings(setup):
+    c,vm=setup
+    repaired=assessment();repaired['requirements'][0]['refs'][0]['quote']='Invented facts not in the source'
+    vm.mock_llm('^Schema repair',json.dumps(repaired))
+    invalid=assessment();invalid['requirements']=[]
+    prepare(c,vm,invalid)
+    with pytest.raises(Exception):c.evaluate('1')
+    assert json.loads(c.get_claim('1'))['revisions']==[]

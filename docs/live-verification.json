@@ -1,0 +1,1266 @@
+{
+  "verified_at": "2026-10-26T05:36:26.075Z",
+  "network": "studionet",
+  "contract": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+  "source_sha256": "18f6c194bb5131d15297ad6d2dab03d3e533d2bc77a74bb83183e1639ac09851",
+  "count": 4,
+  "source_count": 4,
+  "transactions": [
+    {
+      "hash": "0xcbbb5ac767af1086a3c98d9daaaf5a3743ca16b3dfeeda210b9c5787131a4958",
+      "method": "deploy",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T04:30:38.747551+00:00",
+      "rounds": 1
+    },
+    {
+      "hash": "0xf519d6118ea1ecf0e112a2648f66ba07783908e3278302cc101e4a50b4d50847",
+      "method": "upgrade",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "PLATFORM_CODE_UPDATE",
+      "terminal": true,
+      "success": true,
+      "code_sha256": "a4e530cd1d61c730a3333540283b58ced4e65f9138a34bbf7e35b96993a70228",
+      "from": null,
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T05:08:56.651840+00:00",
+      "rounds": 0
+    },
+    {
+      "hash": "0x6ccdf85857620f0edd5b04b64bef159400778b7531b8cc8645227ff675a5e762",
+      "method": "upgrade",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "PLATFORM_CODE_UPDATE",
+      "terminal": true,
+      "success": true,
+      "code_sha256": "03495d2dd83ad6590d5c79c0956835a94b695e3ac68594acd109cc900e77aa99",
+      "from": null,
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T05:15:54.978795+00:00",
+      "rounds": 0
+    },
+    {
+      "hash": "0xb9b82af04e18af7e47db2b25095310f03f4585e11719ad3e7a6e9d77dfb18ea2",
+      "method": "upgrade",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "PLATFORM_CODE_UPDATE",
+      "terminal": true,
+      "success": true,
+      "code_sha256": "18f6c194bb5131d15297ad6d2dab03d3e533d2bc77a74bb83183e1639ac09851",
+      "from": null,
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T05:25:57.551149+00:00",
+      "rounds": 0
+    },
+    {
+      "claim_id": "1",
+      "method": "lock_claim",
+      "hash": "0x21ae651f13abcf73c0ad328650cf431560f7613a2aada18d4b0d287aa395ccab",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T04:37:45.065191+00:00",
+      "rounds": 1
+    },
+    {
+      "claim_id": "1",
+      "method": "submit_evidence",
+      "hash": "0x0114d1eb0252c9fe165a84b572bac6f0594bff5dbe30988fcad2c3adbb214b8c",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T04:39:01.984814+00:00",
+      "rounds": 1
+    },
+    {
+      "claim_id": "1",
+      "method": "evaluate",
+      "hash": "0x4f96835a615699593873db0468cc2569456b6852b59583d8196b7c883b3fe054",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0x28ee9F2c00fB96e7e9B60FA060a83c12735381bE",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T04:41:36.095797+00:00",
+      "rounds": 2
+    },
+    {
+      "claim_id": "2",
+      "method": "lock_claim",
+      "hash": "0x53a865dc4e7b6267da8da9b736844a69691de3afbf6b70ab0232ea1ab467e45a",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T04:42:39.655875+00:00",
+      "rounds": 1
+    },
+    {
+      "claim_id": "3",
+      "method": "lock_claim",
+      "hash": "0x258bbb77d4f2104b9023fa3230311260ad50c6c52bd4370f832ce19521d880f6",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T04:43:46.758904+00:00",
+      "rounds": 1
+    },
+    {
+      "claim_id": "2",
+      "method": "submit_evidence",
+      "hash": "0xf804f9b18350cb365b61ebddb80edfd87e21c8051e89e1073a2d11f7dbacd654",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T04:47:13.121426+00:00",
+      "rounds": 1
+    },
+    {
+      "claim_id": "3",
+      "method": "submit_evidence",
+      "hash": "0x964b71fe16a179fdeb1d748962ceaf7f59a18b06ea79d743163d9330a3c6913f",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T04:49:10.448803+00:00",
+      "rounds": 1
+    },
+    {
+      "claim_id": "2",
+      "method": "evaluate",
+      "hash": "0x2fa27e9401c65ce61e79ee46bc9b6f22f26673572ce63e8136fb089f4ecaf637",
+      "expect_success": false,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_DISAGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": false,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T04:52:47.845859+00:00",
+      "rounds": 4
+    },
+    {
+      "claim_id": "3",
+      "method": "evaluate",
+      "hash": "0x915dc53c4160af9c53d5d8e780f66afbd00a76d5cba6e3d64ed182a523388022",
+      "expect_success": false,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_DISAGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": false,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T04:54:00.567403+00:00",
+      "rounds": 4
+    },
+    {
+      "claim_id": "2",
+      "method": "evaluate",
+      "hash": "0x5c56fca41b26ce33230ac5d3da67133eb8e7a249bc2b31756053a646c5d37794",
+      "expect_success": false,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_DISAGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": false,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T05:09:45.338812+00:00",
+      "rounds": 4
+    },
+    {
+      "claim_id": "1",
+      "method": "submit_evidence",
+      "hash": "0x6a991e8085fae02cb2854602af60378f513eb5e44d9053fa09f3b4fff7489193",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0xD453f96c6699A33dda0e1b144c501629Ee3675C1",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T04:53:59.154639+00:00",
+      "rounds": 1
+    },
+    {
+      "claim_id": "2",
+      "method": "evaluate",
+      "hash": "0xe7a0bdb681585bae7916af14dea3344ebe390e853b6ce25b71af269397f5fd1f",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T05:17:19.079948+00:00",
+      "rounds": 1
+    },
+    {
+      "claim_id": "4",
+      "method": "lock_claim",
+      "hash": "0x8ad9e6699bec25fc13f20e130b394f089621ddef47ffa76d5a019944232e6645",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0xD453f96c6699A33dda0e1b144c501629Ee3675C1",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T05:16:36.912978+00:00",
+      "rounds": 1
+    },
+    {
+      "claim_id": "4",
+      "method": "submit_evidence",
+      "hash": "0xc36216fc6c9b3277d732762ea0182fe1e46426f1a36049a2a859ce96fb8bb6e6",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0xD453f96c6699A33dda0e1b144c501629Ee3675C1",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T05:19:13.418346+00:00",
+      "rounds": 1
+    },
+    {
+      "claim_id": "3",
+      "method": "evaluate",
+      "hash": "0xde50a201694e001bc71be146862bd9815ce42bcfa7210c6be6d8f4f51b74a60a",
+      "expect_success": false,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_DISAGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": false,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T05:19:30.778794+00:00",
+      "rounds": 4
+    },
+    {
+      "claim_id": "3",
+      "method": "evaluate",
+      "hash": "0x48585c40e43f20ef080eff49ba0e97d4c079a35d0976fc7fc9ae118dce0ede18",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T05:26:55.908808+00:00",
+      "rounds": 1
+    },
+    {
+      "claim_id": "4",
+      "method": "evaluate",
+      "hash": "0xb38114eded488d5b0944f1d0607c9f8fd7fa0353da923bd766657a5cf50dcc54",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0xD453f96c6699A33dda0e1b144c501629Ee3675C1",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T05:27:16.031285+00:00",
+      "rounds": 1
+    },
+    {
+      "claim_id": "1",
+      "method": "evaluate",
+      "hash": "0x1fe40b60fc9ec28cdd5c7503fc0d69fe8eb555928110843e6ec1406ffa53ffaf",
+      "expect_success": true,
+      "status": "FINALIZED",
+      "consensus": "MAJORITY_AGREE",
+      "execution": "return",
+      "terminal": true,
+      "success": true,
+      "from": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+      "to": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
+      "created_at": "2026-10-26T05:29:11.203186+00:00",
+      "rounds": 1
+    }
+  ],
+  "records": [
+    {
+      "claim_hash": "f56a5d2308237712d811bc0a42eea049c05bc06195555107f19b140ebbe2006a",
+      "id": "1",
+      "locked": {
+        "claim": "SYNTHETIC PILOT: Atlas Demo Registry published all ten registered A10 records on 2026-10-02 after registration on 2026-10-01.",
+        "created_at": "2026-10-26T04:37:45.065191",
+        "owner": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+        "requirements": [
+          "The primary registry establishes that exactly ten A10 records were registered on 2026-10-01 and all ten were published on 2026-10-02 with a consistent linked origin."
+        ]
+      },
+      "pending": false,
+      "revisions": [
+        {
+          "claim_hash": "f56a5d2308237712d811bc0a42eea049c05bc06195555107f19b140ebbe2006a",
+          "evaluated_at": "2026-10-26T04:41:36.095797",
+          "evaluator": "0x28ee9F2c00fB96e7e9B60FA060a83c12735381bE",
+          "evidence_hash": "8bc1da24ae757931c96ccd35a949ea87a0a46ea6fc3e415dc7e6465aaf5a5c34",
+          "number": 0,
+          "previous_hash": "f56a5d2308237712d811bc0a42eea049c05bc06195555107f19b140ebbe2006a",
+          "result": {
+            "assessment": {
+              "dimensions": [
+                {
+                  "reason": "Sources align on all facts with no conflicts in content or details provided.",
+                  "refs": [
+                    {
+                      "quote": "No records were removed or added between those events.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "This statement links release A10 to record ATLAS-10, with registration preceding publication.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "CONSISTENT"
+                },
+                {
+                  "reason": "Explicit dates show registration on 2026-10-01 followed by publication on 2026-10-02 in both sources.",
+                  "refs": [
+                    {
+                      "quote": "2026-10-01: Atlas Demo Registry registered release A10, containing exactly ten public records.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "Atlas Demo Registry authored the register on 2026-10-01 and published all ten registered records on 2026-10-02.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "CONSISTENT"
+                },
+                {
+                  "reason": "Both sources identify Atlas Demo Registry as origin with ATLAS-10 as the linking primary record.",
+                  "refs": [
+                    {
+                      "quote": "Origin: Atlas Demo Registry, record ATLAS-10.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "Origin: Atlas Demo Registry, provenance statement PROV-A10 dated 2026-10-02.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "CONSISTENT"
+                },
+                {
+                  "reason": "Sources fully describe the ten records, registration, publication, and linkage without gaps in the supplied details.",
+                  "refs": [
+                    {
+                      "quote": "This registry is the primary source for the synthetic release.",
+                      "source": 0
+                    }
+                  ],
+                  "status": "CONSISTENT"
+                }
+              ],
+              "requirements": [
+                {
+                  "reason": "Both sources confirm exactly ten A10 records registered on 2026-10-01 and published on 2026-10-02 by Atlas Demo Registry with linked origin via ATLAS-10 and no additions or removals.",
+                  "refs": [
+                    {
+                      "quote": "2026-10-01: Atlas Demo Registry registered release A10, containing exactly ten public records.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "2026-10-02: Atlas Demo Registry published release A10 with exactly ten records, completing the registered release.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "Atlas Demo Registry authored the register on 2026-10-01 and published all ten registered records on 2026-10-02.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "SUPPORTED"
+                }
+              ],
+              "sources": [
+                {
+                  "reason": "Directly states registration of exactly ten records on 2026-10-01 and publication on 2026-10-02 with ATLAS-10 linkage and no changes.",
+                  "refs": [
+                    {
+                      "quote": "2026-10-01: Atlas Demo Registry registered release A10, containing exactly ten public records.",
+                      "source": 0
+                    }
+                  ],
+                  "status": "SUPPORTING"
+                },
+                {
+                  "reason": "Confirms same timeline, exactly ten records, ATLAS-10 as authoritative link, and Atlas Demo Registry authorship.",
+                  "refs": [
+                    {
+                      "quote": "Record ATLAS-10 is the authoritative primary synthetic registration and publication record for release A10.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "SUPPORTING"
+                }
+              ]
+            },
+            "fingerprints": [
+              {
+                "bytes": 517,
+                "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+                "state": "OK"
+              },
+              {
+                "bytes": 454,
+                "sha256": "b8d085aaa022859367a5784c5c898ebba9432628f31cde0e7f9a4822dff77e50",
+                "state": "OK"
+              }
+            ],
+            "verdict": "VERIFIED"
+          },
+          "revision_hash": "1d9c943c84dfc1b5edfb8cf28fa57b5855944059ce2e964cce8caacfbf58c164",
+          "sources": [
+            {
+              "bytes": 517,
+              "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt"
+            },
+            {
+              "bytes": 454,
+              "sha256": "b8d085aaa022859367a5784c5c898ebba9432628f31cde0e7f9a4822dff77e50",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/provenance.txt"
+            }
+          ],
+          "submission": {
+            "actor": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+            "added": [
+              {
+                "bytes": 517,
+                "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+                "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt"
+              },
+              {
+                "bytes": 454,
+                "sha256": "b8d085aaa022859367a5784c5c898ebba9432628f31cde0e7f9a4822dff77e50",
+                "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/provenance.txt"
+              }
+            ],
+            "evidence_hash": "8bc1da24ae757931c96ccd35a949ea87a0a46ea6fc3e415dc7e6465aaf5a5c34",
+            "reason": "Synthetic primary registry and provenance statement for the locked Atlas A10 claim.",
+            "submitted_at": "2026-10-26T04:39:01.984814"
+          }
+        },
+        {
+          "claim_hash": "f56a5d2308237712d811bc0a42eea049c05bc06195555107f19b140ebbe2006a",
+          "evaluated_at": "2026-10-26T05:29:11.203186",
+          "evaluator": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+          "evidence_hash": "967bde1fbe169a8a6c2b5e163ab0c5e08caa080d524cfccb9ca121a25903128f",
+          "number": 1,
+          "previous_hash": "1d9c943c84dfc1b5edfb8cf28fa57b5855944059ce2e964cce8caacfbf58c164",
+          "result": {
+            "assessment": {
+              "dimensions": [
+                {
+                  "reason": "Sources contradict each other regarding the number of records published, indicating inconsistency in factual assertions.",
+                  "refs": [
+                    {
+                      "quote": "2026-10-02: Atlas Demo Registry published release A10 with exactly ten records, completing the registered release.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "That statement is false: the published release A10 actually contained seven records on 2026-10-02; three records were never published.",
+                      "source": 2
+                    }
+                  ],
+                  "status": "INCONSISTENT"
+                },
+                {
+                  "reason": "All sources agree that registration occurred on 2026-10-01 and publication was attempted on 2026-10-02.",
+                  "refs": [
+                    {
+                      "quote": "2026-10-01: Atlas Demo Registry registered release A10, containing exactly ten public records.\n2026-10-02: Atlas Demo Registry published release A10 with exactly ten records",
+                      "source": 0
+                    },
+                    {
+                      "quote": "Atlas Demo Registry authored the register on 2026-10-01 and published all ten registered records on 2026-10-02.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "CONSISTENT"
+                },
+                {
+                  "reason": "Multiple sources assert Atlas Demo Registry as the authoritative origin without challenge from other sources.",
+                  "refs": [
+                    {
+                      "quote": "Origin: Atlas Demo Registry, record ATLAS-10.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "Origin: Atlas Demo Registry, provenance statement PROV-A10 dated 2026-10-02.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "CONSISTENT"
+                },
+                {
+                  "reason": "No source provides sufficient detail about missing records or explicit completeness verification beyond conflicting counts.",
+                  "refs": [],
+                  "status": "UNKNOWN"
+                }
+              ],
+              "requirements": [
+                {
+                  "reason": "Audit record states only seven of ten claimed records were published, directly opposing the claim's assertion.",
+                  "refs": [
+                    {
+                      "quote": "That statement is false: the published release A10 actually contained seven records on 2026-10-02; three records were never published.",
+                      "source": 2
+                    },
+                    {
+                      "quote": "2026-10-02: Atlas Demo Registry published release A10 with exactly ten records, completing the registered release.",
+                      "source": 0
+                    }
+                  ],
+                  "status": "CONTRADICTED"
+                }
+              ],
+              "sources": [
+                {
+                  "reason": "States that ten records were both registered and published matching the claim's core assertions.",
+                  "refs": [
+                    {
+                      "quote": "2026-10-01: Atlas Demo Registry registered release A10, containing exactly ten public records.\n2026-10-02: Atlas Demo Registry published release A10 with exactly ten records",
+                      "source": 0
+                    }
+                  ],
+                  "status": "SUPPORTING"
+                },
+                {
+                  "reason": "Asserts registration and publication of ten records by Atlas Demo Registry aligning with the claim.",
+                  "refs": [
+                    {
+                      "quote": "Atlas Demo Registry authored the register on 2026-10-01 and published all ten registered records on 2026-10-02.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "SUPPORTING"
+                },
+                {
+                  "reason": "Explicitly denies that all ten records were published stating only seven were released.",
+                  "refs": [
+                    {
+                      "quote": "That statement is false: the published release A10 actually contained seven records on 2026-10-02; three records were never published.",
+                      "source": 2
+                    }
+                  ],
+                  "status": "CONTRADICTING"
+                }
+              ]
+            },
+            "fingerprints": [
+              {
+                "bytes": 517,
+                "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+                "state": "OK"
+              },
+              {
+                "bytes": 454,
+                "sha256": "b8d085aaa022859367a5784c5c898ebba9432628f31cde0e7f9a4822dff77e50",
+                "state": "OK"
+              },
+              {
+                "bytes": 567,
+                "sha256": "17269bb07fc2d35207928c084c272efba5655318e1ed3af0ed75d42e30819fba",
+                "state": "OK"
+              }
+            ],
+            "verdict": "CONTRADICTED"
+          },
+          "revision_hash": "1f451fda43ad97253036b603fa2afcb7a6950362e7bc10b718b4012da6085f59",
+          "sources": [
+            {
+              "bytes": 517,
+              "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt"
+            },
+            {
+              "bytes": 454,
+              "sha256": "b8d085aaa022859367a5784c5c898ebba9432628f31cde0e7f9a4822dff77e50",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/provenance.txt"
+            },
+            {
+              "bytes": 567,
+              "sha256": "17269bb07fc2d35207928c084c272efba5655318e1ed3af0ed75d42e30819fba",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/counter-record.txt"
+            }
+          ],
+          "submission": {
+            "actor": "0xD453f96c6699A33dda0e1b144c501629Ee3675C1",
+            "added": [
+              {
+                "bytes": 567,
+                "sha256": "17269bb07fc2d35207928c084c272efba5655318e1ed3af0ed75d42e30819fba",
+                "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/counter-record.txt"
+              }
+            ],
+            "evidence_hash": "967bde1fbe169a8a6c2b5e163ab0c5e08caa080d524cfccb9ca121a25903128f",
+            "reason": "Independent synthetic challenge: the audit says seven A10 records were published, contradicting the original ten-record claim.",
+            "submitted_at": "2026-10-26T04:53:59.154639"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "bytes": 517,
+          "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+          "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt"
+        },
+        {
+          "bytes": 454,
+          "sha256": "b8d085aaa022859367a5784c5c898ebba9432628f31cde0e7f9a4822dff77e50",
+          "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/provenance.txt"
+        },
+        {
+          "bytes": 567,
+          "sha256": "17269bb07fc2d35207928c084c272efba5655318e1ed3af0ed75d42e30819fba",
+          "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/counter-record.txt"
+        }
+      ],
+      "submissions": [
+        {
+          "actor": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+          "added": [
+            {
+              "bytes": 517,
+              "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt"
+            },
+            {
+              "bytes": 454,
+              "sha256": "b8d085aaa022859367a5784c5c898ebba9432628f31cde0e7f9a4822dff77e50",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/provenance.txt"
+            }
+          ],
+          "evidence_hash": "8bc1da24ae757931c96ccd35a949ea87a0a46ea6fc3e415dc7e6465aaf5a5c34",
+          "reason": "Synthetic primary registry and provenance statement for the locked Atlas A10 claim.",
+          "submitted_at": "2026-10-26T04:39:01.984814"
+        },
+        {
+          "actor": "0xD453f96c6699A33dda0e1b144c501629Ee3675C1",
+          "added": [
+            {
+              "bytes": 567,
+              "sha256": "17269bb07fc2d35207928c084c272efba5655318e1ed3af0ed75d42e30819fba",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/counter-record.txt"
+            }
+          ],
+          "evidence_hash": "967bde1fbe169a8a6c2b5e163ab0c5e08caa080d524cfccb9ca121a25903128f",
+          "reason": "Independent synthetic challenge: the audit says seven A10 records were published, contradicting the original ten-record claim.",
+          "submitted_at": "2026-10-26T04:53:59.154639"
+        }
+      ]
+    },
+    {
+      "claim_hash": "9eaedfcd40639f53d0ade151b3e65168526ace9c6e6169d62bbee5c90505c9d0",
+      "id": "2",
+      "locked": {
+        "claim": "SYNTHETIC PILOT: Release A10 contained all ten public records on 2026-10-02, with no missing records.",
+        "created_at": "2026-10-26T04:42:39.655875",
+        "owner": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+        "requirements": [
+          "All ten A10 records must have been published on 2026-10-02; compare the original registry and subsequent audit and identify any material quantity contradiction."
+        ]
+      },
+      "pending": false,
+      "revisions": [
+        {
+          "claim_hash": "9eaedfcd40639f53d0ade151b3e65168526ace9c6e6169d62bbee5c90505c9d0",
+          "evaluated_at": "2026-10-26T05:17:19.079948",
+          "evaluator": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+          "evidence_hash": "93f33b03eb4ba073c2ad121be69b3cc8802235178aa9f5c1c598c829a38a2b80",
+          "number": 0,
+          "previous_hash": "9eaedfcd40639f53d0ade151b3e65168526ace9c6e6169d62bbee5c90505c9d0",
+          "result": {
+            "assessment": {
+              "dimensions": [
+                {
+                  "reason": "The two sources materially conflict on whether A10 published ten records or only seven on the same date.",
+                  "refs": [
+                    {
+                      "quote": "2026-10-02: Atlas Demo Registry published release A10 with exactly ten records, completing the registered release.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "the published release A10 actually contained seven records on 2026-10-02; three records were never published.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "INCONSISTENT"
+                },
+                {
+                  "reason": "Both sources align on the sequence of registry first and audit later, with publication on 2026-10-02 and audit issued on 2026-10-03.",
+                  "refs": [
+                    {
+                      "quote": "2026-10-01: Atlas Demo Registry registered release A10, containing exactly ten public records.\n2026-10-02: Atlas Demo Registry published release A10",
+                      "source": 0
+                    },
+                    {
+                      "quote": "Origin: Atlas Demo Registry, audit record AUDIT-A10, issued 2026-10-03.\nThe earlier record ATLAS-10 stated that release A10 contained ten records.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "CONSISTENT"
+                },
+                {
+                  "reason": "Both documents trace to Atlas Demo Registry and the audit explicitly identifies and reviews the earlier ATLAS-10 record.",
+                  "refs": [
+                    {
+                      "quote": "Origin: Atlas Demo Registry, record ATLAS-10.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "Origin: Atlas Demo Registry, audit record AUDIT-A10, issued 2026-10-03.\nThe earlier record ATLAS-10 stated that release A10 contained ten records.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "CONSISTENT"
+                },
+                {
+                  "reason": "The audit states three records were never published, directly conflicting with the claim of a complete ten-record public release.",
+                  "refs": [
+                    {
+                      "quote": "published release A10 with exactly ten records, completing the registered release.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "the published release A10 actually contained seven records on 2026-10-02; three records were never published.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "INCONSISTENT"
+                }
+              ],
+              "requirements": [
+                {
+                  "reason": "The registry says ten records were published on 2026-10-02, but the later audit for the same release says only seven were published and three were never published.",
+                  "refs": [
+                    {
+                      "quote": "2026-10-02: Atlas Demo Registry published release A10 with exactly ten records, completing the registered release.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "the published release A10 actually contained seven records on 2026-10-02; three records were never published.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "CONTRADICTED"
+                }
+              ],
+              "sources": [
+                {
+                  "reason": "This source directly states that A10 was published on 2026-10-02 with exactly ten records and no changes from registration.",
+                  "refs": [
+                    {
+                      "quote": "2026-10-02: Atlas Demo Registry published release A10 with exactly ten records, completing the registered release.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "No records were removed or added between those events.",
+                      "source": 0
+                    }
+                  ],
+                  "status": "SUPPORTING"
+                },
+                {
+                  "reason": "This source directly says only seven records were published on 2026-10-02 and three were never published.",
+                  "refs": [
+                    {
+                      "quote": "the published release A10 actually contained seven records on 2026-10-02; three records were never published.",
+                      "source": 1
+                    },
+                    {
+                      "quote": "This audit contradicts the claim that all ten records were published.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "CONTRADICTING"
+                }
+              ]
+            },
+            "fingerprints": [
+              {
+                "bytes": 517,
+                "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+                "state": "OK"
+              },
+              {
+                "bytes": 567,
+                "sha256": "17269bb07fc2d35207928c084c272efba5655318e1ed3af0ed75d42e30819fba",
+                "state": "OK"
+              }
+            ],
+            "verdict": "CONTRADICTED"
+          },
+          "revision_hash": "b6b41dcaa5f0ea64a26f6aa19696132d9f8343d82e00329bc46281ac2cef4ea0",
+          "sources": [
+            {
+              "bytes": 517,
+              "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt"
+            },
+            {
+              "bytes": 567,
+              "sha256": "17269bb07fc2d35207928c084c272efba5655318e1ed3af0ed75d42e30819fba",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/counter-record.txt"
+            }
+          ],
+          "submission": {
+            "actor": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+            "added": [
+              {
+                "bytes": 517,
+                "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+                "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt"
+              },
+              {
+                "bytes": 567,
+                "sha256": "17269bb07fc2d35207928c084c272efba5655318e1ed3af0ed75d42e30819fba",
+                "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/counter-record.txt"
+              }
+            ],
+            "evidence_hash": "93f33b03eb4ba073c2ad121be69b3cc8802235178aa9f5c1c598c829a38a2b80",
+            "reason": "Compare the original synthetic registry with the material counter-audit of the same release and publication date.",
+            "submitted_at": "2026-10-26T04:47:13.121426"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "bytes": 517,
+          "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+          "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt"
+        },
+        {
+          "bytes": 567,
+          "sha256": "17269bb07fc2d35207928c084c272efba5655318e1ed3af0ed75d42e30819fba",
+          "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/counter-record.txt"
+        }
+      ],
+      "submissions": [
+        {
+          "actor": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+          "added": [
+            {
+              "bytes": 517,
+              "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt"
+            },
+            {
+              "bytes": 567,
+              "sha256": "17269bb07fc2d35207928c084c272efba5655318e1ed3af0ed75d42e30819fba",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/counter-record.txt"
+            }
+          ],
+          "evidence_hash": "93f33b03eb4ba073c2ad121be69b3cc8802235178aa9f5c1c598c829a38a2b80",
+          "reason": "Compare the original synthetic registry with the material counter-audit of the same release and publication date.",
+          "submitted_at": "2026-10-26T04:47:13.121426"
+        }
+      ]
+    },
+    {
+      "claim_hash": "a352290b8830b0891110f2293b1f6d5012d7dc8e789ae6283bfb26ef70ef7eb4",
+      "id": "3",
+      "locked": {
+        "claim": "SYNTHETIC PILOT: Release Z99 was published with twenty records on 2026-10-04 by an authenticated primary registry.",
+        "created_at": "2026-10-26T04:43:46.758904",
+        "owner": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+        "requirements": [
+          "An authoritative primary source must establish the Z99 origin, publication date of 2026-10-04 and complete count of twenty records."
+        ]
+      },
+      "pending": false,
+      "revisions": [
+        {
+          "claim_hash": "a352290b8830b0891110f2293b1f6d5012d7dc8e789ae6283bfb26ef70ef7eb4",
+          "evaluated_at": "2026-10-26T05:26:55.908808",
+          "evaluator": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+          "evidence_hash": "d1a529439d827bcfecc100a4620423e6ad0af5672bdb38621d5e52951e5f2d1d",
+          "number": 0,
+          "previous_hash": "a352290b8830b0891110f2293b1f6d5012d7dc8e789ae6283bfb26ef70ef7eb4",
+          "result": {
+            "assessment": {
+              "dimensions": [
+                {
+                  "reason": "No source asserts facts conflicting with the claim; the sole note reports only an unverified possible October appearance.",
+                  "refs": [
+                    {
+                      "quote": "An anonymous note says that release Z99 may have appeared sometime in October.",
+                      "source": 0
+                    }
+                  ],
+                  "status": "UNKNOWN"
+                },
+                {
+                  "reason": "No publication date is established; the note only speculates an unspecified time in October.",
+                  "refs": [
+                    {
+                      "quote": "may have appeared sometime in October",
+                      "source": 0
+                    }
+                  ],
+                  "status": "UNKNOWN"
+                },
+                {
+                  "reason": "No authenticated primary registry entry or provenance link for Z99 is supplied by the sole source.",
+                  "refs": [
+                    {
+                      "quote": "No primary registry entry, publication date, count, origin certificate or linked record is supplied.",
+                      "source": 0
+                    }
+                  ],
+                  "status": "UNKNOWN"
+                },
+                {
+                  "reason": "No count or linked records are supplied, so the twenty-record completeness is unestablished.",
+                  "refs": [
+                    {
+                      "quote": "This note does not establish whether Z99 was published or how many records it contains.",
+                      "source": 0
+                    }
+                  ],
+                  "status": "UNKNOWN"
+                }
+              ],
+              "requirements": [
+                {
+                  "reason": "The only source supplies no primary registry entry, date, count or origin certificate, leaving the requirement unestablished.",
+                  "refs": [
+                    {
+                      "quote": "No primary registry entry, publication date, count, origin certificate or linked record is supplied.",
+                      "source": 0
+                    }
+                  ],
+                  "status": "UNKNOWN"
+                }
+              ],
+              "sources": [
+                {
+                  "reason": "An anonymous note asserts only a possible October appearance without date, count, origin or registry entry.",
+                  "refs": [
+                    {
+                      "quote": "An anonymous note says that release Z99 may have appeared sometime in October.",
+                      "source": 0
+                    }
+                  ],
+                  "status": "CONTEXT"
+                }
+              ]
+            },
+            "fingerprints": [
+              {
+                "bytes": 331,
+                "sha256": "0f39ccf949aab873470be574015552ff1176800dd1b04a5478efe8297478464b",
+                "state": "OK"
+              }
+            ],
+            "verdict": "INCONCLUSIVE"
+          },
+          "revision_hash": "8343b31283d52ce9f1177df20c541cc117b6780e20659b3a3602628f4874fa13",
+          "sources": [
+            {
+              "bytes": 331,
+              "sha256": "0f39ccf949aab873470be574015552ff1176800dd1b04a5478efe8297478464b",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/unknown.txt"
+            }
+          ],
+          "submission": {
+            "actor": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+            "added": [
+              {
+                "bytes": 331,
+                "sha256": "0f39ccf949aab873470be574015552ff1176800dd1b04a5478efe8297478464b",
+                "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/unknown.txt"
+              }
+            ],
+            "evidence_hash": "d1a529439d827bcfecc100a4620423e6ad0af5672bdb38621d5e52951e5f2d1d",
+            "reason": "Synthetic uncertainty pilot: anonymous note provides no primary source, count or established publication date.",
+            "submitted_at": "2026-10-26T04:49:10.448803"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "bytes": 331,
+          "sha256": "0f39ccf949aab873470be574015552ff1176800dd1b04a5478efe8297478464b",
+          "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/unknown.txt"
+        }
+      ],
+      "submissions": [
+        {
+          "actor": "0x3A9F2F7420cBB5190e57c3cB375D82c035C353cD",
+          "added": [
+            {
+              "bytes": 331,
+              "sha256": "0f39ccf949aab873470be574015552ff1176800dd1b04a5478efe8297478464b",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/unknown.txt"
+            }
+          ],
+          "evidence_hash": "d1a529439d827bcfecc100a4620423e6ad0af5672bdb38621d5e52951e5f2d1d",
+          "reason": "Synthetic uncertainty pilot: anonymous note provides no primary source, count or established publication date.",
+          "submitted_at": "2026-10-26T04:49:10.448803"
+        }
+      ]
+    },
+    {
+      "claim_hash": "10e2efc7a825941797e12058c732649fd3c3a1041e52917ed2af2fb9af1e5bcf",
+      "id": "4",
+      "locked": {
+        "claim": "SYNTHETIC PILOT: Atlas Demo Registry registered ten A10 records on 2026-10-01 and published those ten records on 2026-10-02.",
+        "created_at": "2026-10-26T05:16:36.912978",
+        "owner": "0xD453f96c6699A33dda0e1b144c501629Ee3675C1",
+        "requirements": [
+          "The supplied primary registry and linked provenance establish the ten-record count, registration and publication dates, and origin for synthetic release A10."
+        ]
+      },
+      "pending": false,
+      "revisions": [
+        {
+          "claim_hash": "10e2efc7a825941797e12058c732649fd3c3a1041e52917ed2af2fb9af1e5bcf",
+          "evaluated_at": "2026-10-26T05:27:16.031285",
+          "evaluator": "0xD453f96c6699A33dda0e1b144c501629Ee3675C1",
+          "evidence_hash": "8bc1da24ae757931c96ccd35a949ea87a0a46ea6fc3e415dc7e6465aaf5a5c34",
+          "number": 0,
+          "previous_hash": "10e2efc7a825941797e12058c732649fd3c3a1041e52917ed2af2fb9af1e5bcf",
+          "result": {
+            "assessment": {
+              "dimensions": [
+                {
+                  "reason": "Both sources align on release A10, ten records, registration on 2026-10-01, and publication on 2026-10-02.",
+                  "refs": [
+                    {
+                      "quote": "2026-10-01: Atlas Demo Registry registered release A10, containing exactly ten public records.\n2026-10-02: Atlas Demo Registry published release A10 with exactly ten records",
+                      "source": 0
+                    },
+                    {
+                      "quote": "Atlas Demo Registry authored the register on 2026-10-01 and published all ten registered records on 2026-10-02.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "CONSISTENT"
+                },
+                {
+                  "reason": "The sources present a coherent sequence with registration before publication and no conflicting dates.",
+                  "refs": [
+                    {
+                      "quote": "This statement links release A10 to record ATLAS-10, with registration preceding publication.",
+                      "source": 1
+                    },
+                    {
+                      "quote": "2026-10-01: Atlas Demo Registry registered release A10, containing exactly ten public records.\n2026-10-02: Atlas Demo Registry published release A10",
+                      "source": 0
+                    }
+                  ],
+                  "status": "CONSISTENT"
+                },
+                {
+                  "reason": "A primary registry record and a linked provenance statement both identify Atlas Demo Registry as the origin.",
+                  "refs": [
+                    {
+                      "quote": "This registry is the primary source for the synthetic release. Record ATLAS-10 links the registration and publication of the same release A10.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "Origin: Atlas Demo Registry, provenance statement PROV-A10 dated 2026-10-02.\nRecord ATLAS-10 is the authoritative primary synthetic registration and publication record for release A10.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "CONSISTENT"
+                },
+                {
+                  "reason": "The supplied documents cover count, registration date, publication date, and origin for synthetic release A10.",
+                  "refs": [
+                    {
+                      "quote": "2026-10-01: Atlas Demo Registry registered release A10, containing exactly ten public records.\n2026-10-02: Atlas Demo Registry published release A10 with exactly ten records",
+                      "source": 0
+                    },
+                    {
+                      "quote": "This statement links release A10 to record ATLAS-10, with registration preceding publication.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "CONSISTENT"
+                }
+              ],
+              "requirements": [
+                {
+                  "reason": "The registry and linked provenance jointly state ten records, the two dates, and Atlas Demo Registry as origin for release A10.",
+                  "refs": [
+                    {
+                      "quote": "Origin: Atlas Demo Registry, record ATLAS-10.\n2026-10-01: Atlas Demo Registry registered release A10, containing exactly ten public records.",
+                      "source": 0
+                    },
+                    {
+                      "quote": "Origin: Atlas Demo Registry, provenance statement PROV-A10 dated 2026-10-02.\nRecord ATLAS-10 is the authoritative primary synthetic registration and publication record for release A10.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "SUPPORTED"
+                }
+              ],
+              "sources": [
+                {
+                  "reason": "This source directly asserts release A10 had ten records, was registered on 2026-10-01, and published on 2026-10-02.",
+                  "refs": [
+                    {
+                      "quote": "2026-10-01: Atlas Demo Registry registered release A10, containing exactly ten public records.\n2026-10-02: Atlas Demo Registry published release A10 with exactly ten records",
+                      "source": 0
+                    }
+                  ],
+                  "status": "SUPPORTING"
+                },
+                {
+                  "reason": "This provenance statement affirms the same ten-record count and the same registration and publication dates for A10.",
+                  "refs": [
+                    {
+                      "quote": "Atlas Demo Registry authored the register on 2026-10-01 and published all ten registered records on 2026-10-02.",
+                      "source": 1
+                    }
+                  ],
+                  "status": "SUPPORTING"
+                }
+              ]
+            },
+            "fingerprints": [
+              {
+                "bytes": 517,
+                "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+                "state": "OK"
+              },
+              {
+                "bytes": 454,
+                "sha256": "b8d085aaa022859367a5784c5c898ebba9432628f31cde0e7f9a4822dff77e50",
+                "state": "OK"
+              }
+            ],
+            "verdict": "VERIFIED"
+          },
+          "revision_hash": "b97bbda65374c05b06cac35febb3829c53508a579c0e3a6501b4f8b765993d67",
+          "sources": [
+            {
+              "bytes": 517,
+              "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt"
+            },
+            {
+              "bytes": 454,
+              "sha256": "b8d085aaa022859367a5784c5c898ebba9432628f31cde0e7f9a4822dff77e50",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/provenance.txt"
+            }
+          ],
+          "submission": {
+            "actor": "0xD453f96c6699A33dda0e1b144c501629Ee3675C1",
+            "added": [
+              {
+                "bytes": 517,
+                "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+                "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt"
+              },
+              {
+                "bytes": 454,
+                "sha256": "b8d085aaa022859367a5784c5c898ebba9432628f31cde0e7f9a4822dff77e50",
+                "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/provenance.txt"
+              }
+            ],
+            "evidence_hash": "8bc1da24ae757931c96ccd35a949ea87a0a46ea6fc3e415dc7e6465aaf5a5c34",
+            "reason": "Final-code public-site pilot using the exact synthetic primary registry and linked provenance statement.",
+            "submitted_at": "2026-10-26T05:19:13.418346"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "bytes": 517,
+          "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+          "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt"
+        },
+        {
+          "bytes": 454,
+          "sha256": "b8d085aaa022859367a5784c5c898ebba9432628f31cde0e7f9a4822dff77e50",
+          "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/provenance.txt"
+        }
+      ],
+      "submissions": [
+        {
+          "actor": "0xD453f96c6699A33dda0e1b144c501629Ee3675C1",
+          "added": [
+            {
+              "bytes": 517,
+              "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt"
+            },
+            {
+              "bytes": 454,
+              "sha256": "b8d085aaa022859367a5784c5c898ebba9432628f31cde0e7f9a4822dff77e50",
+              "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/provenance.txt"
+            }
+          ],
+          "evidence_hash": "8bc1da24ae757931c96ccd35a949ea87a0a46ea6fc3e415dc7e6465aaf5a5c34",
+          "reason": "Final-code public-site pilot using the exact synthetic primary registry and linked provenance statement.",
+          "submitted_at": "2026-10-26T05:19:13.418346"
+        }
+      ]
+    }
+  ]
+}

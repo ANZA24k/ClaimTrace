@@ -2,6 +2,175 @@
   "network": "studionet",
   "contract": "0xA01d1Df7608344d4ee015c31142f80b331FDB7F1",
   "deployment_transaction": "0xcbbb5ac767af1086a3c98d9daaaf5a3743ca16b3dfeeda210b9c5787131a4958",
-  "pilot": [],
-  "verified_at": null
+  "pilot": [
+    {
+      "claim_id": "1",
+      "method": "lock_claim",
+      "hash": "0x21ae651f13abcf73c0ad328650cf431560f7613a2aada18d4b0d287aa395ccab",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    },
+    {
+      "claim_id": "1",
+      "method": "submit_evidence",
+      "hash": "0x0114d1eb0252c9fe165a84b572bac6f0594bff5dbe30988fcad2c3adbb214b8c",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    },
+    {
+      "claim_id": "1",
+      "method": "evaluate",
+      "hash": "0x4f96835a615699593873db0468cc2569456b6852b59583d8196b7c883b3fe054",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    },
+    {
+      "claim_id": "2",
+      "method": "lock_claim",
+      "hash": "0x53a865dc4e7b6267da8da9b736844a69691de3afbf6b70ab0232ea1ab467e45a",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    },
+    {
+      "claim_id": "3",
+      "method": "lock_claim",
+      "hash": "0x258bbb77d4f2104b9023fa3230311260ad50c6c52bd4370f832ce19521d880f6",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    },
+    {
+      "claim_id": "2",
+      "method": "submit_evidence",
+      "hash": "0xf804f9b18350cb365b61ebddb80edfd87e21c8051e89e1073a2d11f7dbacd654",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    },
+    {
+      "claim_id": "3",
+      "method": "submit_evidence",
+      "hash": "0x964b71fe16a179fdeb1d748962ceaf7f59a18b06ea79d743163d9330a3c6913f",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    },
+    {
+      "claim_id": "2",
+      "method": "evaluate",
+      "hash": "0x2fa27e9401c65ce61e79ee46bc9b6f22f26673572ce63e8136fb089f4ecaf637",
+      "expect_success": false,
+      "status": "FINALIZED / MAJORITY_DISAGREE / return",
+      "success": false
+    },
+    {
+      "claim_id": "3",
+      "method": "evaluate",
+      "hash": "0x915dc53c4160af9c53d5d8e780f66afbd00a76d5cba6e3d64ed182a523388022",
+      "expect_success": false,
+      "status": "FINALIZED / MAJORITY_DISAGREE / return",
+      "success": false
+    },
+    {
+      "claim_id": "2",
+      "method": "evaluate",
+      "hash": "0x5c56fca41b26ce33230ac5d3da67133eb8e7a249bc2b31756053a646c5d37794",
+      "expect_success": false,
+      "status": "FINALIZED / MAJORITY_DISAGREE / return",
+      "success": false
+    },
+    {
+      "claim_id": "1",
+      "method": "submit_evidence",
+      "hash": "0x6a991e8085fae02cb2854602af60378f513eb5e44d9053fa09f3b4fff7489193",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    },
+    {
+      "claim_id": "2",
+      "method": "evaluate",
+      "hash": "0xe7a0bdb681585bae7916af14dea3344ebe390e853b6ce25b71af269397f5fd1f",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    },
+    {
+      "claim_id": "4",
+      "method": "lock_claim",
+      "hash": "0x8ad9e6699bec25fc13f20e130b394f089621ddef47ffa76d5a019944232e6645",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    },
+    {
+      "claim_id": "4",
+      "method": "submit_evidence",
+      "hash": "0xc36216fc6c9b3277d732762ea0182fe1e46426f1a36049a2a859ce96fb8bb6e6",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    },
+    {
+      "claim_id": "3",
+      "method": "evaluate",
+      "hash": "0xde50a201694e001bc71be146862bd9815ce42bcfa7210c6be6d8f4f51b74a60a",
+      "expect_success": false,
+      "status": "FINALIZED / MAJORITY_DISAGREE / return",
+      "success": false
+    },
+    {
+      "claim_id": "3",
+      "method": "evaluate",
+      "hash": "0x48585c40e43f20ef080eff49ba0e97d4c079a35d0976fc7fc9ae118dce0ede18",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    },
+    {
+      "claim_id": "4",
+      "method": "evaluate",
+      "hash": "0xb38114eded488d5b0944f1d0607c9f8fd7fa0353da923bd766657a5cf50dcc54",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    },
+    {
+      "claim_id": "1",
+      "method": "evaluate",
+      "hash": "0x1fe40b60fc9ec28cdd5c7503fc0d69fe8eb555928110843e6ec1406ffa53ffaf",
+      "expect_success": true,
+      "status": "FINALIZED / MAJORITY_AGREE / return",
+      "success": true
+    }
+  ],
+  "verified_at": "2026-10-26T05:36:26.075Z",
+  "upgrades": [
+    {
+      "hash": "0xf519d6118ea1ecf0e112a2648f66ba07783908e3278302cc101e4a50b4d50847",
+      "method": "upgrade",
+      "expect_success": true
+    },
+    {
+      "hash": "0x6ccdf85857620f0edd5b04b64bef159400778b7531b8cc8645227ff675a5e762",
+      "method": "upgrade",
+      "expect_success": true
+    },
+    {
+      "hash": "0xb9b82af04e18af7e47db2b25095310f03f4585e11719ad3e7a6e9d77dfb18ea2",
+      "method": "upgrade",
+      "expect_success": true
+    }
+  ],
+  "expected_verdicts": {
+    "1": "CONTRADICTED",
+    "2": "CONTRADICTED",
+    "3": "INCONCLUSIVE",
+    "4": "VERIFIED"
+  },
+  "source_sha256": "18f6c194bb5131d15297ad6d2dab03d3e533d2bc77a74bb83183e1639ac09851"
 }
