@@ -1,0 +1,32 @@
+name: ClaimTrace checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/genvm-linter
+            ~/.cache/gltest-direct
+          key: genvm-rc7-claimtrace-v1
+      - run: pip install -r requirements.txt
+      - run: genvm-lint check contracts/claimtrace.py
+      - name: Reuse verified SDK bundle
+        run: |
+          mkdir -p ~/.cache/gltest-direct
+          cp ~/.cache/genvm-linter/genvm-universal-*.tar.xz ~/.cache/gltest-direct/
+      - run: pytest -q
+      - run: npm ci
+      - run: npm test
+      - run: npm run build

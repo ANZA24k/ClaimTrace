@@ -1,0 +1,3 @@
+SYNTHETIC CLAIMTRACE PILOT — not a real-world certification.
+Origin: Atlas Demo Registry, provenance statement PROV-A10 dated 2026-10-02.
+Record ATLAS-10 is the authoritative primary synthetic registration and publication record for release A10. Atlas Demo Registry authored the register on 2026-10-01 and published all ten registered records on 2026-10-02. This statement links release A10 to record ATLAS-10, with registration preceding publication.

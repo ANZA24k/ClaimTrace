@@ -1,0 +1,4 @@
+SYNTHETIC CLAIMTRACE PILOT — not a real-world certification.
+Origin: Atlas Demo Registry, audit record AUDIT-A10, issued 2026-10-03.
+The earlier record ATLAS-10 stated that release A10 contained ten records. That statement is false: the published release A10 actually contained seven records on 2026-10-02; three records were never published.
+This audit contradicts the claim that all ten records were published. It concerns the same release and publication date, not a later deletion. The audit supersedes the earlier quantity assertion, not the evidence history.

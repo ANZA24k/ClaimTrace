@@ -1,0 +1,5 @@
+SYNTHETIC CLAIMTRACE PILOT — not a real-world certification.
+Origin: Atlas Demo Registry, record ATLAS-10.
+2026-10-01: Atlas Demo Registry registered release A10, containing exactly ten public records.
+2026-10-02: Atlas Demo Registry published release A10 with exactly ten records, completing the registered release.
+This registry is the primary source for the synthetic release. Record ATLAS-10 links the registration and publication of the same release A10. No records were removed or added between those events.
