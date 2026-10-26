@@ -168,3 +168,19 @@ def test_capacity_and_unknown_read(setup):
     for i in range(7):c.lock_claim('Additional synthetic public claim.', '["A sufficient requirement."]')
     with pytest.raises(ValueError,match='capacity'):c.lock_claim('Additional synthetic public claim.','["A sufficient requirement."]')
     assert c.get_claim('999')=='null'
+
+@pytest.mark.parametrize('allow',[True,False])
+def test_ancillary_difference_requires_independent_audit(setup,allow):
+    c,vm=setup;prepare(c,vm);c.evaluate('1')
+    candidate=json.loads(c.get_claim('1'))['revisions'][0]['result']
+    candidate['assessment']['sources'][0]['status']='CONTEXT'
+    vm.mock_llm('^Independent evidence audit', json.dumps({'valid':allow}))
+    assert vm.run_validator(leader_result=candidate) is allow
+
+
+def test_audit_malformed_result_rejected(setup):
+    c,vm=setup;prepare(c,vm);c.evaluate('1')
+    candidate=json.loads(c.get_claim('1'))['revisions'][0]['result']
+    candidate['assessment']['sources'][0]['status']='CONTEXT'
+    vm.mock_llm('^Independent evidence audit', '{"valid":"true"}')
+    assert not vm.run_validator(leader_result=candidate)

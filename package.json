@@ -1,1 +1,1 @@
-{"name":"claimtrace","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","test":"node --test tests/wallet.test.mjs"},"dependencies":{"genlayer-js":"1.1.8","viem":"2.38.5"},"devDependencies":{"vite":"7.1.12"}}
+{"name":"claimtrace","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","test":"node --test tests/*.test.mjs"},"dependencies":{"genlayer-js":"1.1.8","viem":"2.38.5"},"devDependencies":{"vite":"7.1.12"}}

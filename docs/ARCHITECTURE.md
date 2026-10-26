@@ -1,0 +1,13 @@
+# Architecture and security boundaries
+
+The Vite client uses genlayer-js directly against `https://studio.genlayer.com/api`. `web/deployment.json` selects the actual deployed contract; live verdicts are always read from finalized chain state. Public static hosting has no server-side private key and no verdict-generation endpoint.
+
+`lock_claim` writes the immutable claim hash. Owner-authorized `submit_evidence` commits a canonical cumulative source manifest; later challenges append sources. `evaluate` snapshots deterministic inputs, then enters one custom `gl.vm.run_nondet_unsafe` boundary. Both leader and every validator call `assess`: all exact-source HTTP requests, commitment checks, UTF-8 decoding and semantic assessments are repeated independently. The validator additionally validates leader quotation anchors against its independently retrieved bytes, compares exact retrieval fingerprints, every requirement outcome and the derived canonical verdict. If ancillary source/dimension classifications differ, an additional independent semantic audit must validate every proposed finding and disclose all material contradictions; verdict equality alone is insufficient. Storage changes occur only after consensus returns.
+
+Grounding proves a quotation exists, not that a model used it correctly. Classifications compare every supplied source; a source marked CONTRADICTING deterministically prevents favorable VERIFIED even if every requirement is otherwise marked supported. Missing/inaccessible evidence cannot produce VERIFIED. No implementation can prove all possible public counter-evidence was supplied.
+
+The frontend does not interpolate source content as HTML; all user/model text is escaped. Source URLs are restricted before fetch or link presentation. Public JSON receipts contain no signing material. Account creation uses viem’s cryptographic generator in browser memory and never displays a test private key. Only explicit confirmation can call `writeContract`; MetaMask connection is a distinct address-only action. No unlimited approvals, seed phrases or user-provided private keys exist in the product.
+
+The seven-day challenge window is measured deterministically from the first successful evaluation using GenVM transaction time. Errors before the final storage write leave the committed pending manifest and all earlier revisions intact. Each revision includes its full cumulative source manifest, allowing earlier decisions to be reconstructed without reading a mutable latest-only source list.
+
+Tests exercise the actual official SDK and Direct Mode VM fixtures, including `run_validator` with independently changed web and LLM mocks. They are not a replacement contract class or fake SDK.

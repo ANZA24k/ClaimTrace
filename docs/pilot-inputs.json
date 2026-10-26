@@ -1,0 +1,22 @@
+{
+  "registry": {
+    "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/registry.txt",
+    "sha256": "5b9460a80005be0f2ab06f369f6e9f2840a7607045d817f46fd028613db32469",
+    "bytes": 517
+  },
+  "provenance": {
+    "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/provenance.txt",
+    "sha256": "b8d085aaa022859367a5784c5c898ebba9432628f31cde0e7f9a4822dff77e50",
+    "bytes": 454
+  },
+  "counter-record": {
+    "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/counter-record.txt",
+    "sha256": "17269bb07fc2d35207928c084c272efba5655318e1ed3af0ed75d42e30819fba",
+    "bytes": 567
+  },
+  "unknown": {
+    "url": "https://raw.githubusercontent.com/ANZA24k/ClaimTrace/99e6d4e106a8d448eda567e4576dd6288645ba2e/fixtures/unknown.txt",
+    "sha256": "0f39ccf949aab873470be574015552ff1176800dd1b04a5478efe8297478464b",
+    "bytes": 331
+  }
+}
